@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="flex">
+         <img src="purple.jpg" alt="" height="100%" width="22%">
+         <img src="credit.png" class="c" alt="">
+         <img src="debit.png" class="d" alt="">
+    <div class="font">
+    <form action="" >
+            <label for="Name">CARDHOLDER NAME</label><br>
+            <input type="text" name="Cardholder Name" id="Name" placeholder="e.g. Jane Appleseed" style="width: 350px;"><br>
+            <label for="Card Number">CARD NUMBER</label><br>
+            <input type="number" name="Card Number" id="Card Number" placeholder="e.g. 1234 5678 9123 0000" style="width: 350px;"><br>
+            <label for="Month">EXP. DATE (MM/YY)</label>
+            &nbsp;&nbsp;&nbsp;&nbsp; 
+            <label for="CVC">CVC</label><br>
+            <input type="number" name="Month" id="Month" placeholder="MM" class="a">&nbsp;
+            <input type="number" name="Year" id="Year" placeholder="YY" class="a">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="number" name="CVC" id="CVC" placeholder="e.g. 123"><br>
+            <button>CONFIRM</button>
+    </div>
+    
+  </div>
+
+    </form>
+</body>
+</html>
+<style>
+    .font{
+        font-family: serif;
+        color: rgb(56, 3, 106);
+        padding: 150px ;
+        gap: 400px;
+        
+    }
+    .a{
+        width: 60px;
+    }
+    input{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        height: 25px;
+    }
+    .flex{
+        display: flex;
+        
+        flex-direction: row;
+        
+    }
+    .c{
+        width: 250px;
+        position: absolute;
+        left: 100px;
+        top: 140px;
+    }
+    .d{
+        width: 250px;
+        position: absolute;
+        top: 300px;
+        left: 180px;
+    }
+    button{
+        color: aliceblue;
+        background-color: rgb(56, 3, 106) ;
+        border-radius: 5px;
+        width: 350px;
+    }
+</style>
